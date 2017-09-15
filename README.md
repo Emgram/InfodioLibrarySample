@@ -51,7 +51,7 @@ infodio 기능을 사용하기 위해 infodio 객체를 생성합니다.
 
 	...
 
-        infodio = new Infodio(this, infodioReadyListener);
+        infodio = new Infodio(getApplication(), infodioReadyListener);
 
         registerTTSReceiver();
 
