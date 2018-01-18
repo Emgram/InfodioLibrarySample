@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/InfodioLibrarySample.iml" filepath="$PROJECT_DIR$/InfodioLibrarySample.iml" />
       <module fileurl="file://$PROJECT_DIR$/SampleInfodio.iml" filepath="$PROJECT_DIR$/SampleInfodio.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/infodio_sample.iml" filepath="$PROJECT_DIR$/infodio_sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/libInfodio-release/libInfodio-release.iml" filepath="$PROJECT_DIR$/libInfodio-release/libInfodio-release.iml" />
     </modules>
   </component>

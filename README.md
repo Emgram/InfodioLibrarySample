@@ -43,6 +43,7 @@ infodio 개발자 가이드입니다.
 infodio 기능 사용 전
 --------------------
 infodio 기능을 사용하기 위해 infodio 객체를 생성합니다.
+객체 생성선 설정값을 통해 상용/개발 서버 설정이 가능합니다. (기본값은 상용서버 입니다.)
 
 ~~~~
     @Override
@@ -51,7 +52,9 @@ infodio 기능을 사용하기 위해 infodio 객체를 생성합니다.
 
 	...
 
-        infodio = new Infodio(getApplication(), infodioReadyListener);
+        Infodio.setSetting(new InfodioSettingValue().setDevServer(true));
+		
+		infodio = new Infodio(getApplication(), infodioReadyListener);
 
         registerTTSReceiver();
 

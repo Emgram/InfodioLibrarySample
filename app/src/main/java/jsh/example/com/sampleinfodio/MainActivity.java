@@ -22,6 +22,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
+import co.kr.emgram.infodiolib.data.InfodioSettingValue;
 import co.kr.emgram.infodiolib.data.TTSPlayInfo;
 import co.kr.emgram.infodiolib.data.TourData;
 import co.kr.emgram.infodiolib.data.TourDatas;
@@ -60,6 +61,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         permissionCheck();
 
         initUi();
+
+        Infodio.setSetting(new InfodioSettingValue().setDevServer(true));
 
         infodio = new Infodio(getApplication(), infodioReadyListener);
 
